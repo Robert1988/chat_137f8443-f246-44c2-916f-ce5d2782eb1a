@@ -1,0 +1,74 @@
+Lambda Execution Result (Latest Run):
+=== Experiment Errors ===
+
+Traceback (most recent call last):
+
+File "/app/experiment.py", line 3, in <module>
+
+import numpy as np
+
+ModuleNotFoundError: No module named 'numpy'
+
+{
+
+"experimentStatusCode": 500,
+
+"body": {
+
+"message": "Experiment failed",
+
+"returncode": 1,
+
+"stdout": "",
+
+"stderr": "Traceback (most recent call last):\n  File \"/app/experiment.py\", line 3, in <module>\n    import numpy as np\nModuleNotFoundError: No module named 'numpy'\n",
+
+"execution_time": null
+
+}
+
+}
+
+INIT_REPORT Init Duration: 413.23 ms	Phase: init	Status: error	Error Type: Runtime.ExitError
+
+=== Experiment Errors ===
+
+Traceback (most recent call last):
+
+File "/app/experiment.py", line 3, in <module>
+
+import numpy as np
+
+ModuleNotFoundError: No module named 'numpy'
+
+{
+
+"experimentStatusCode": 500,
+
+"body": {
+
+"message": "Experiment failed",
+
+"returncode": 1,
+
+"stdout": "",
+
+"stderr": "Traceback (most recent call last):\n  File \"/app/experiment.py\", line 3, in <module>\n    import numpy as np\nModuleNotFoundError: No module named 'numpy'\n",
+
+"execution_time": null
+
+}
+
+}
+
+INIT_REPORT Init Duration: 81.75 ms	Phase: invoke	Status: error	Error Type: Runtime.ExitError
+
+START RequestId: 24982130-922a-4e20-a555-8ac16494d7ce Version: $LATEST
+
+RequestId: 24982130-922a-4e20-a555-8ac16494d7ce Error: Runtime exited without providing a reason
+Runtime.ExitError
+
+END RequestId: 24982130-922a-4e20-a555-8ac16494d7ce
+
+REPORT RequestId: 24982130-922a-4e20-a555-8ac16494d7ce	Duration: 83.48 ms	Billed Duration: 84 ms	Memory Size: 3008 MB	Max Memory Used: 15 MB	
+
