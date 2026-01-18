@@ -1,27 +1,709 @@
 Lambda Execution Result (Latest Run):
 === Experiment Errors ===
 
-Traceback (most recent call last):
+2026-01-18 12:27:36,192 - INFO - Starting Dual Sourcing RL Experiment
 
-File "/app/experiment.py", line 3, in <module>
+2026-01-18 12:27:36,195 - INFO - Initialized policy network with architecture: 20 -> 64 -> 32 -> 2
 
-import numpy as np
+2026-01-18 12:27:36,195 - INFO - Added product PROD001 with initial inventory 50.0
 
-ModuleNotFoundError: No module named 'numpy'
+2026-01-18 12:27:36,198 - INFO - Initialized policy network with architecture: 20 -> 64 -> 32 -> 2
+
+2026-01-18 12:27:36,198 - INFO - Added product PROD002 with initial inventory 75.0
+
+2026-01-18 12:27:36,202 - INFO - Initialized policy network with architecture: 20 -> 64 -> 32 -> 2
+
+2026-01-18 12:27:36,202 - INFO - Added product PROD003 with initial inventory 100.0
+
+2026-01-18 12:27:36,202 - INFO - Starting training phase...
+
+2026-01-18 12:27:36,202 - INFO - Training episode 1/5
+
+2026-01-18 12:27:36,202 - INFO - Starting training episode...
+
+2026-01-18 12:27:36,202 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,202 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,202 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,202 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,202 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,203 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,203 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,203 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,203 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,203 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,203 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,203 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,203 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,203 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,203 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,203 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,203 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,204 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,204 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,204 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,204 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,204 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,204 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,204 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,204 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,204 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,204 - INFO - Product PROD001: Total reward = 0.00, Final inventory = 0.00
+
+2026-01-18 12:27:36,204 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,204 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,204 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,204 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,204 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,205 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,205 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,205 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,205 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,205 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,205 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,205 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,205 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,205 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,205 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,205 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,205 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,205 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,205 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,206 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,206 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,206 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,206 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,206 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,206 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,206 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,206 - INFO - Product PROD003: Total reward = 435.05, Final inventory = 0.00
+
+2026-01-18 12:27:36,207 - INFO - Training episode completed. Average batch reward: 217.52, Total episode reward: 435.05
+
+2026-01-18 12:27:36,207 - INFO - Training episode 2/5
+
+2026-01-18 12:27:36,207 - INFO - Starting training episode...
+
+2026-01-18 12:27:36,207 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,207 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,207 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,207 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,208 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,208 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,208 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,208 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,208 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,208 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,208 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,208 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,208 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,208 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,208 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,208 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,208 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,208 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,208 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,209 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,209 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,209 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,209 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,209 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,209 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,209 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,209 - INFO - Product PROD001: Total reward = 0.00, Final inventory = 0.00
+
+2026-01-18 12:27:36,209 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,209 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,209 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,209 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,209 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,209 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,210 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,210 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,210 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,210 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,210 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,210 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,210 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,210 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,210 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,210 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,210 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,210 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,210 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,210 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,211 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,211 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,211 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,211 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,211 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,211 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,211 - INFO - Product PROD003: Total reward = 0.00, Final inventory = 0.00
+
+2026-01-18 12:27:36,212 - INFO - Training episode completed. Average batch reward: 0.00, Total episode reward: 0.00
+
+2026-01-18 12:27:36,212 - INFO - Training episode 3/5
+
+2026-01-18 12:27:36,212 - INFO - Starting training episode...
+
+2026-01-18 12:27:36,212 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,212 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,212 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,212 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,212 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,212 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,213 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,213 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,213 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,213 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,213 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,213 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,213 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,213 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,213 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,213 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,213 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,213 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,213 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,213 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,214 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,214 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,214 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,214 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,214 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,214 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,214 - INFO - Product PROD003: Total reward = 0.00, Final inventory = 0.00
+
+2026-01-18 12:27:36,214 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,214 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,214 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,214 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,214 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,214 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,214 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,214 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,215 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,215 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,215 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,215 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,215 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,215 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,215 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,215 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,215 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,215 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,215 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,215 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,215 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,215 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,216 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,216 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,216 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,216 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,216 - INFO - Product PROD002: Total reward = 0.00, Final inventory = 0.00
+
+2026-01-18 12:27:36,217 - INFO - Training episode completed. Average batch reward: 0.00, Total episode reward: 0.00
+
+2026-01-18 12:27:36,217 - INFO - Training episode 4/5
+
+2026-01-18 12:27:36,217 - INFO - Starting training episode...
+
+2026-01-18 12:27:36,217 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,217 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,217 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,217 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,217 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,217 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,217 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,217 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,218 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,218 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,218 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,218 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,218 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,218 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,218 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,218 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,218 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,218 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,218 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,218 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,218 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,218 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,219 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,219 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,219 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,219 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,219 - INFO - Product PROD003: Total reward = 0.00, Final inventory = 0.00
+
+2026-01-18 12:27:36,219 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,219 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,219 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,219 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,219 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,219 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,219 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,219 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,219 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,219 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,220 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,220 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,220 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,220 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,220 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,220 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,220 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,220 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,220 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,220 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,220 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,220 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,220 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,220 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,221 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,221 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,221 - INFO - Product PROD001: Total reward = 0.00, Final inventory = 0.00
+
+2026-01-18 12:27:36,222 - INFO - Training episode completed. Average batch reward: 0.00, Total episode reward: 0.00
+
+2026-01-18 12:27:36,222 - INFO - Training episode 5/5
+
+2026-01-18 12:27:36,222 - INFO - Starting training episode...
+
+2026-01-18 12:27:36,222 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,222 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,222 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,222 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,222 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,222 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,222 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,222 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,222 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,222 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,223 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,223 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,223 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,223 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,223 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,223 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,223 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,223 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,223 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,223 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,223 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,223 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,223 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,223 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,224 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,224 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,224 - INFO - Product PROD001: Total reward = 0.00, Final inventory = 0.00
+
+2026-01-18 12:27:36,224 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,224 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,224 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,224 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,224 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,224 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,224 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,224 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,224 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,224 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,224 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,225 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,225 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,225 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,225 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,225 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,225 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,225 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,225 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,225 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,225 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,225 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,225 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,225 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,225 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,226 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,226 - INFO - Product PROD002: Total reward = 0.00, Final inventory = 0.00
+
+2026-01-18 12:27:36,227 - INFO - Training episode completed. Average batch reward: 0.00, Total episode reward: 0.00
+
+2026-01-18 12:27:36,227 - INFO - Starting evaluation phase...
+
+2026-01-18 12:27:36,227 - INFO - Starting evaluation...
+
+2026-01-18 12:27:36,227 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,227 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,227 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,227 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,227 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,227 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,227 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,227 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,227 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,227 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,227 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,228 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,228 - INFO - Product PROD001 evaluation: Reward=0.00, Service Level=0.037, Avg Inventory=0.00
+
+2026-01-18 12:27:36,228 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,228 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,228 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,228 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,228 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,228 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,228 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,228 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,228 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,228 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,228 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,228 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,228 - INFO - Product PROD002 evaluation: Reward=0.00, Service Level=0.057, Avg Inventory=0.00
+
+2026-01-18 12:27:36,229 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,229 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,229 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,229 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,229 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,229 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,229 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,229 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,229 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,229 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,229 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,229 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,229 - INFO - Product PROD003 evaluation: Reward=0.00, Service Level=0.076, Avg Inventory=0.00
+
+2026-01-18 12:27:36,229 - INFO - Overall evaluation: Total Reward=0.00, Service Level=0.057, Avg Inventory=0.00
+
+2026-01-18 12:27:36,229 - INFO - === EXPERIMENT RESULTS ===
+
+2026-01-18 12:27:36,229 - INFO - Training episodes completed: 5
+
+2026-01-18 12:27:36,229 - INFO - Average training reward: 87.01
+
+2026-01-18 12:27:36,229 - INFO - Final evaluation reward: 0.00
+
+2026-01-18 12:27:36,229 - INFO - Overall service level: 0.057
+
+2026-01-18 12:27:36,230 - INFO - Average inventory level: 0.00
+
+2026-01-18 12:27:36,230 - INFO - PROD001: Reward=0.00, Service Level=0.037
+
+2026-01-18 12:27:36,230 - INFO - PROD002: Reward=0.00, Service Level=0.057
+
+2026-01-18 12:27:36,230 - INFO - PROD003: Reward=0.00, Service Level=0.076
+
+2026-01-18 12:27:36,230 - INFO - Experiment completed successfully
 
 {
 
-"experimentStatusCode": 500,
+"experimentStatusCode": 200,
 
 "body": {
 
-"message": "Experiment failed",
+"message": "Experiment completed successfully",
 
-"returncode": 1,
+"returncode": 0,
 
 "stdout": "",
 
-"stderr": "Traceback (most recent call last):\n  File \"/app/experiment.py\", line 3, in <module>\n    import numpy as np\nModuleNotFoundError: No module named 'numpy'\n",
+"stderr": "2026-01-18 12:27:36,192 - INFO - Starting Dual Sourcing RL Experiment\n2026-01-18 12:27:36,195 - INFO - Initialized policy network with architecture: 20 -> 64 -> 32 -> 2\n2026-01-18 12:27:36,195 - INFO - Added product PROD001 with initial inventory 50.0\n2026-01-18 12:27:36,198 - INFO - Initialized policy network with architecture: 20 -> 64 -> 32 -> 2\n2026-01-18 12:27:36,198 - INFO - Added product PROD002 with initial inventory 75.0\n2026-01-18 12:27:36,202 - INFO - Initialized policy network with architecture: 20 -> 64 -> 32 -> 2\n2026-01-18 12:27:36,202 - INFO - Added product PROD003 with initial inventory 100.0\n2026-01-18 12:27:36,202 - INFO - Starting training phase...\n2026-01-18 12:27:36,202 - INFO - Training episode 1/5\n2026-01-18 12:27:36,202 - INFO - Starting training episode...\n2026-01-18 12:27:36,202 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,202 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,202 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,202 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,202 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,203 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,203 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,203 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,203 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,203 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,203 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,203 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,203 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,203 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,203 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,203 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,203 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,204 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,204 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,204 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,204 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,204 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,204 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,204 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,204 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,204 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,204 - INFO - Product PROD001: Total reward = 0.00, Final inventory = 0.00\n2026-01-18 12:27:36,204 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,204 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,204 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,204 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,204 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,205 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,205 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,205 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,205 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,205 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,205 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,205 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,205 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,205 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,205 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,205 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,205 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,205 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,205 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,206 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,206 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,206 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,206 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,206 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,206 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,206 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,206 - INFO - Product PROD003: Total reward = 435.05, Final inventory = 0.00\n2026-01-18 12:27:36,207 - INFO - Training episode completed. Average batch reward: 217.52, Total episode reward: 435.05\n2026-01-18 12:27:36,207 - INFO - Training episode 2/5\n2026-01-18 12:27:36,207 - INFO - Starting training episode...\n2026-01-18 12:27:36,207 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,207 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,207 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,207 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,208 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,208 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,208 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,208 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,208 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,208 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,208 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,208 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,208 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,208 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,208 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,208 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,208 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,208 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,208 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,209 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,209 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,209 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,209 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,209 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,209 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,209 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,209 - INFO - Product PROD001: Total reward = 0.00, Final inventory = 0.00\n2026-01-18 12:27:36,209 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,209 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,209 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,209 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,209 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,209 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,210 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,210 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,210 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,210 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,210 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,210 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,210 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,210 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,210 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,210 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,210 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,210 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,210 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,210 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,211 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,211 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,211 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,211 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,211 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,211 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,211 - INFO - Product PROD003: Total reward = 0.00, Final inventory = 0.00\n2026-01-18 12:27:36,212 - INFO - Training episode completed. Average batch reward: 0.00, Total episode reward: 0.00\n2026-01-18 12:27:36,212 - INFO - Training episode 3/5\n2026-01-18 12:27:36,212 - INFO - Starting training episode...\n2026-01-18 12:27:36,212 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,212 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,212 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,212 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,212 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,212 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,213 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,213 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,213 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,213 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,213 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,213 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,213 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,213 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,213 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,213 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,213 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,213 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,213 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,213 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,214 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,214 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,214 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,214 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,214 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,214 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,214 - INFO - Product PROD003: Total reward = 0.00, Final inventory = 0.00\n2026-01-18 12:27:36,214 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,214 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,214 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,214 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,214 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,214 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,214 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,214 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,215 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,215 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,215 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,215 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,215 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,215 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,215 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,215 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,215 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,215 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,215 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,215 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,215 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,215 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,216 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,216 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,216 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,216 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,216 - INFO - Product PROD002: Total reward = 0.00, Final inventory = 0.00\n2026-01-18 12:27:36,217 - INFO - Training episode completed. Average batch reward: 0.00, Total episode reward: 0.00\n2026-01-18 12:27:36,217 - INFO - Training episode 4/5\n2026-01-18 12:27:36,217 - INFO - Starting training episode...\n2026-01-18 12:27:36,217 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,217 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,217 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,217 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,217 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,217 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,217 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,217 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,218 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,218 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,218 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,218 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,218 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,218 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,218 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,218 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,218 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,218 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,218 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,218 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,218 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,218 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,219 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,219 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,219 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,219 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,219 - INFO - Product PROD003: Total reward = 0.00, Final inventory = 0.00\n2026-01-18 12:27:36,219 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,219 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,219 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,219 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,219 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,219 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,219 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,219 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,219 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,219 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,220 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,220 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,220 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,220 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,220 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,220 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,220 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,220 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,220 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,220 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,220 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,220 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,220 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,220 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,221 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,221 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,221 - INFO - Product PROD001: Total reward = 0.00, Final inventory = 0.00\n2026-01-18 12:27:36,222 - INFO - Training episode completed. Average batch reward: 0.00, Total episode reward: 0.00\n2026-01-18 12:27:36,222 - INFO - Training episode 5/5\n2026-01-18 12:27:36,222 - INFO - Starting training episode...\n2026-01-18 12:27:36,222 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,222 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,222 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,222 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,222 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,222 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,222 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,222 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,222 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,222 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,223 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,223 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,223 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,223 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,223 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,223 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,223 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,223 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,223 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,223 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,223 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,223 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,223 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,223 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,224 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,224 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,224 - INFO - Product PROD001: Total reward = 0.00, Final inventory = 0.00\n2026-01-18 12:27:36,224 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,224 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,224 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,224 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,224 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,224 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,224 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,224 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,224 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,224 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,224 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,225 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,225 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,225 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,225 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,225 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,225 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,225 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,225 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,225 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,225 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,225 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,225 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,225 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,225 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,226 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,226 - INFO - Product PROD002: Total reward = 0.00, Final inventory = 0.00\n2026-01-18 12:27:36,227 - INFO - Training episode completed. Average batch reward: 0.00, Total episode reward: 0.00\n2026-01-18 12:27:36,227 - INFO - Starting evaluation phase...\n2026-01-18 12:27:36,227 - INFO - Starting evaluation...\n2026-01-18 12:27:36,227 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,227 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,227 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,227 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,227 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,227 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,227 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,227 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,227 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,227 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,227 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,228 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,228 - INFO - Product PROD001 evaluation: Reward=0.00, Service Level=0.037, Avg Inventory=0.00\n2026-01-18 12:27:36,228 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,228 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,228 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,228 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,228 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,228 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,228 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,228 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,228 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,228 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,228 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,228 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,228 - INFO - Product PROD002 evaluation: Reward=0.00, Service Level=0.057, Avg Inventory=0.00\n2026-01-18 12:27:36,229 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,229 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,229 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,229 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,229 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,229 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,229 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,229 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,229 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,229 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,229 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,229 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,229 - INFO - Product PROD003 evaluation: Reward=0.00, Service Level=0.076, Avg Inventory=0.00\n2026-01-18 12:27:36,229 - INFO - Overall evaluation: Total Reward=0.00, Service Level=0.057, Avg Inventory=0.00\n2026-01-18 12:27:36,229 - INFO - === EXPERIMENT RESULTS ===\n2026-01-18 12:27:36,229 - INFO - Training episodes completed: 5\n2026-01-18 12:27:36,229 - INFO - Average training reward: 87.01\n2026-01-18 12:27:36,229 - INFO - Final evaluation reward: 0.00\n2026-01-18 12:27:36,229 - INFO - Overall service level: 0.057\n2026-01-18 12:27:36,230 - INFO - Average inventory level: 0.00\n2026-01-18 12:27:36,230 - INFO - PROD001: Reward=0.00, Service Level=0.037\n2026-01-18 12:27:36,230 - INFO - PROD002: Reward=0.00, Service Level=0.057\n2026-01-18 12:27:36,230 - INFO - PROD003: Reward=0.00, Service Level=0.076\n2026-01-18 12:27:36,230 - INFO - Experiment completed successfully\n",
 
 "execution_time": null
 
@@ -29,31 +711,713 @@ ModuleNotFoundError: No module named 'numpy'
 
 }
 
-INIT_REPORT Init Duration: 413.23 ms	Phase: init	Status: error	Error Type: Runtime.ExitError
+INIT_REPORT Init Duration: 420.90 ms	Phase: init	Status: error	Error Type: Runtime.ExitError
 
 === Experiment Errors ===
 
-Traceback (most recent call last):
+2026-01-18 12:27:36,344 - INFO - Starting Dual Sourcing RL Experiment
 
-File "/app/experiment.py", line 3, in <module>
+2026-01-18 12:27:36,347 - INFO - Initialized policy network with architecture: 20 -> 64 -> 32 -> 2
 
-import numpy as np
+2026-01-18 12:27:36,348 - INFO - Added product PROD001 with initial inventory 50.0
 
-ModuleNotFoundError: No module named 'numpy'
+2026-01-18 12:27:36,351 - INFO - Initialized policy network with architecture: 20 -> 64 -> 32 -> 2
+
+2026-01-18 12:27:36,351 - INFO - Added product PROD002 with initial inventory 75.0
+
+2026-01-18 12:27:36,354 - INFO - Initialized policy network with architecture: 20 -> 64 -> 32 -> 2
+
+2026-01-18 12:27:36,354 - INFO - Added product PROD003 with initial inventory 100.0
+
+2026-01-18 12:27:36,354 - INFO - Starting training phase...
+
+2026-01-18 12:27:36,354 - INFO - Training episode 1/5
+
+2026-01-18 12:27:36,354 - INFO - Starting training episode...
+
+2026-01-18 12:27:36,355 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,355 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,355 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,355 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,355 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,355 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,355 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,355 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,355 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,355 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,355 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,356 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,356 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,356 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,356 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,356 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,356 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,356 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,356 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,356 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,356 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,356 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,356 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,356 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,356 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,357 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,357 - INFO - Product PROD001: Total reward = 0.00, Final inventory = 0.00
+
+2026-01-18 12:27:36,357 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,357 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,357 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,357 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,357 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,357 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,357 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,357 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,357 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,357 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,357 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,357 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,358 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,358 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,358 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,358 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,358 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,358 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,358 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,358 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,358 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,358 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,358 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,358 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,358 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,358 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,359 - INFO - Product PROD002: Total reward = 913.34, Final inventory = 0.00
+
+2026-01-18 12:27:36,360 - INFO - Training episode completed. Average batch reward: 456.67, Total episode reward: 913.34
+
+2026-01-18 12:27:36,360 - INFO - Training episode 2/5
+
+2026-01-18 12:27:36,360 - INFO - Starting training episode...
+
+2026-01-18 12:27:36,360 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,360 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,360 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,360 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,360 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,360 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,360 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,360 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,360 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,360 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,360 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,360 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,361 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,361 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,361 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,361 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,361 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,361 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,361 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,361 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,361 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,361 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,361 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,361 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,361 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,361 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,362 - INFO - Product PROD003: Total reward = 1944.73, Final inventory = 0.00
+
+2026-01-18 12:27:36,362 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,362 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,362 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,362 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,362 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,362 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,362 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,362 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,362 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,362 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,362 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,362 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,362 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,363 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,363 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,363 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,363 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,363 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,363 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,363 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,363 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,363 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,363 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,363 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,363 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,363 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,363 - INFO - Product PROD002: Total reward = 0.00, Final inventory = 0.00
+
+2026-01-18 12:27:36,364 - INFO - Training episode completed. Average batch reward: 972.37, Total episode reward: 1944.73
+
+2026-01-18 12:27:36,364 - INFO - Training episode 3/5
+
+2026-01-18 12:27:36,365 - INFO - Starting training episode...
+
+2026-01-18 12:27:36,365 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,365 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,365 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,365 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,365 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,365 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,365 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,365 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,365 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,365 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,365 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,365 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,365 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,366 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,366 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,366 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,366 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,366 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,366 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,366 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,366 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,366 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,366 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,366 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,366 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,366 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,366 - INFO - Product PROD003: Total reward = 0.00, Final inventory = 0.00
+
+2026-01-18 12:27:36,366 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,367 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,367 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,367 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,367 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,367 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,367 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,367 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,367 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,367 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,367 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,367 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,367 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,367 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,367 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,368 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,368 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,368 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,368 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,368 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,368 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,368 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,368 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,368 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,368 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,368 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,368 - INFO - Product PROD002: Total reward = 0.00, Final inventory = 0.00
+
+2026-01-18 12:27:36,369 - INFO - Training episode completed. Average batch reward: 0.00, Total episode reward: 0.00
+
+2026-01-18 12:27:36,369 - INFO - Training episode 4/5
+
+2026-01-18 12:27:36,369 - INFO - Starting training episode...
+
+2026-01-18 12:27:36,369 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,370 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,370 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,370 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,370 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,370 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,370 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,370 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,370 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,370 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,370 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,370 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,370 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,370 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,370 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,371 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,371 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,371 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,371 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,371 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,371 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,371 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,371 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,371 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,371 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,371 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,371 - INFO - Product PROD002: Total reward = 0.00, Final inventory = 0.00
+
+2026-01-18 12:27:36,371 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,371 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,372 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,372 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,372 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,372 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,372 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,372 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,372 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,372 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,372 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,372 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,372 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,372 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,372 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,372 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,373 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,373 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,373 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,373 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,373 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,373 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,373 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,373 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,373 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,373 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,373 - INFO - Product PROD001: Total reward = 0.00, Final inventory = 0.00
+
+2026-01-18 12:27:36,374 - INFO - Training episode completed. Average batch reward: 0.00, Total episode reward: 0.00
+
+2026-01-18 12:27:36,374 - INFO - Training episode 5/5
+
+2026-01-18 12:27:36,374 - INFO - Starting training episode...
+
+2026-01-18 12:27:36,374 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,374 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,375 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,375 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,375 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,375 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,375 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,375 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,375 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,375 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,375 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,375 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,375 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,375 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,375 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,375 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,375 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,376 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,376 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,376 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,376 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,376 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,376 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,376 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,376 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,376 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,376 - INFO - Product PROD001: Total reward = 0.00, Final inventory = 0.00
+
+2026-01-18 12:27:36,376 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,376 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,376 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,376 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,377 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,377 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,377 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,377 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,377 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,377 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,377 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,377 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,377 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,377 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,377 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,377 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,377 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,377 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,378 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,378 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,378 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,378 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,378 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,378 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,378 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,378 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,378 - INFO - Product PROD003: Total reward = 0.00, Final inventory = 0.00
+
+2026-01-18 12:27:36,379 - INFO - Training episode completed. Average batch reward: 0.00, Total episode reward: 0.00
+
+2026-01-18 12:27:36,379 - INFO - Starting evaluation phase...
+
+2026-01-18 12:27:36,379 - INFO - Starting evaluation...
+
+2026-01-18 12:27:36,379 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,379 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,379 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,380 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,380 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,380 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,380 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,380 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,380 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,380 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,380 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,380 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,380 - INFO - Product PROD001 evaluation: Reward=0.00, Service Level=0.044, Avg Inventory=0.00
+
+2026-01-18 12:27:36,380 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,380 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,380 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,380 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,380 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,381 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,381 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,381 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,381 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,381 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,381 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,381 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,381 - INFO - Product PROD002 evaluation: Reward=0.00, Service Level=0.053, Avg Inventory=0.00
+
+2026-01-18 12:27:36,381 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,381 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,381 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,381 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,381 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,381 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,382 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,382 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,382 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,382 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,382 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,382 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication
+
+2026-01-18 12:27:36,382 - INFO - Product PROD003 evaluation: Reward=1862.34, Service Level=0.068, Avg Inventory=2.90
+
+2026-01-18 12:27:36,382 - INFO - Overall evaluation: Total Reward=1862.34, Service Level=0.056, Avg Inventory=0.97
+
+2026-01-18 12:27:36,382 - INFO - === EXPERIMENT RESULTS ===
+
+2026-01-18 12:27:36,382 - INFO - Training episodes completed: 5
+
+2026-01-18 12:27:36,382 - INFO - Average training reward: 571.62
+
+2026-01-18 12:27:36,382 - INFO - Final evaluation reward: 1862.34
+
+2026-01-18 12:27:36,382 - INFO - Overall service level: 0.056
+
+2026-01-18 12:27:36,382 - INFO - Average inventory level: 0.97
+
+2026-01-18 12:27:36,382 - INFO - PROD001: Reward=0.00, Service Level=0.044
+
+2026-01-18 12:27:36,382 - INFO - PROD002: Reward=0.00, Service Level=0.053
+
+2026-01-18 12:27:36,382 - INFO - PROD003: Reward=1862.34, Service Level=0.068
+
+2026-01-18 12:27:36,382 - INFO - Experiment completed successfully
 
 {
 
-"experimentStatusCode": 500,
+"experimentStatusCode": 200,
 
 "body": {
 
-"message": "Experiment failed",
+"message": "Experiment completed successfully",
 
-"returncode": 1,
+"returncode": 0,
 
 "stdout": "",
 
-"stderr": "Traceback (most recent call last):\n  File \"/app/experiment.py\", line 3, in <module>\n    import numpy as np\nModuleNotFoundError: No module named 'numpy'\n",
+"stderr": "2026-01-18 12:27:36,344 - INFO - Starting Dual Sourcing RL Experiment\n2026-01-18 12:27:36,347 - INFO - Initialized policy network with architecture: 20 -> 64 -> 32 -> 2\n2026-01-18 12:27:36,348 - INFO - Added product PROD001 with initial inventory 50.0\n2026-01-18 12:27:36,351 - INFO - Initialized policy network with architecture: 20 -> 64 -> 32 -> 2\n2026-01-18 12:27:36,351 - INFO - Added product PROD002 with initial inventory 75.0\n2026-01-18 12:27:36,354 - INFO - Initialized policy network with architecture: 20 -> 64 -> 32 -> 2\n2026-01-18 12:27:36,354 - INFO - Added product PROD003 with initial inventory 100.0\n2026-01-18 12:27:36,354 - INFO - Starting training phase...\n2026-01-18 12:27:36,354 - INFO - Training episode 1/5\n2026-01-18 12:27:36,354 - INFO - Starting training episode...\n2026-01-18 12:27:36,355 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,355 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,355 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,355 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,355 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,355 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,355 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,355 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,355 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,355 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,355 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,356 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,356 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,356 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,356 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,356 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,356 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,356 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,356 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,356 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,356 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,356 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,356 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,356 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,356 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,357 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,357 - INFO - Product PROD001: Total reward = 0.00, Final inventory = 0.00\n2026-01-18 12:27:36,357 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,357 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,357 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,357 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,357 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,357 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,357 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,357 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,357 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,357 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,357 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,357 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,358 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,358 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,358 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,358 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,358 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,358 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,358 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,358 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,358 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,358 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,358 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,358 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,358 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,358 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,359 - INFO - Product PROD002: Total reward = 913.34, Final inventory = 0.00\n2026-01-18 12:27:36,360 - INFO - Training episode completed. Average batch reward: 456.67, Total episode reward: 913.34\n2026-01-18 12:27:36,360 - INFO - Training episode 2/5\n2026-01-18 12:27:36,360 - INFO - Starting training episode...\n2026-01-18 12:27:36,360 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,360 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,360 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,360 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,360 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,360 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,360 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,360 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,360 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,360 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,360 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,360 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,361 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,361 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,361 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,361 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,361 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,361 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,361 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,361 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,361 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,361 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,361 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,361 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,361 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,361 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,362 - INFO - Product PROD003: Total reward = 1944.73, Final inventory = 0.00\n2026-01-18 12:27:36,362 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,362 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,362 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,362 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,362 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,362 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,362 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,362 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,362 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,362 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,362 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,362 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,362 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,363 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,363 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,363 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,363 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,363 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,363 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,363 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,363 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,363 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,363 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,363 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,363 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,363 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,363 - INFO - Product PROD002: Total reward = 0.00, Final inventory = 0.00\n2026-01-18 12:27:36,364 - INFO - Training episode completed. Average batch reward: 972.37, Total episode reward: 1944.73\n2026-01-18 12:27:36,364 - INFO - Training episode 3/5\n2026-01-18 12:27:36,365 - INFO - Starting training episode...\n2026-01-18 12:27:36,365 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,365 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,365 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,365 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,365 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,365 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,365 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,365 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,365 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,365 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,365 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,365 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,365 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,366 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,366 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,366 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,366 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,366 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,366 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,366 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,366 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,366 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,366 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,366 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,366 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,366 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,366 - INFO - Product PROD003: Total reward = 0.00, Final inventory = 0.00\n2026-01-18 12:27:36,366 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,367 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,367 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,367 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,367 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,367 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,367 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,367 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,367 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,367 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,367 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,367 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,367 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,367 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,367 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,368 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,368 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,368 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,368 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,368 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,368 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,368 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,368 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,368 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,368 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,368 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,368 - INFO - Product PROD002: Total reward = 0.00, Final inventory = 0.00\n2026-01-18 12:27:36,369 - INFO - Training episode completed. Average batch reward: 0.00, Total episode reward: 0.00\n2026-01-18 12:27:36,369 - INFO - Training episode 4/5\n2026-01-18 12:27:36,369 - INFO - Starting training episode...\n2026-01-18 12:27:36,369 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,370 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,370 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,370 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,370 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,370 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,370 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,370 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,370 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,370 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,370 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,370 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,370 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,370 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,370 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,371 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,371 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,371 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,371 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,371 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,371 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,371 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,371 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,371 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,371 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,371 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,371 - INFO - Product PROD002: Total reward = 0.00, Final inventory = 0.00\n2026-01-18 12:27:36,371 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,371 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,372 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,372 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,372 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,372 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,372 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,372 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,372 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,372 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,372 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,372 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,372 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,372 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,372 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,372 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,373 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,373 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,373 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,373 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,373 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,373 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,373 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,373 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,373 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,373 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,373 - INFO - Product PROD001: Total reward = 0.00, Final inventory = 0.00\n2026-01-18 12:27:36,374 - INFO - Training episode completed. Average batch reward: 0.00, Total episode reward: 0.00\n2026-01-18 12:27:36,374 - INFO - Training episode 5/5\n2026-01-18 12:27:36,374 - INFO - Starting training episode...\n2026-01-18 12:27:36,374 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,374 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,375 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,375 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,375 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,375 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,375 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,375 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,375 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,375 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,375 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,375 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,375 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,375 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,375 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,375 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,375 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,376 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,376 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,376 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,376 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,376 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,376 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,376 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,376 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,376 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,376 - INFO - Product PROD001: Total reward = 0.00, Final inventory = 0.00\n2026-01-18 12:27:36,376 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,376 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,376 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,376 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,377 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,377 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,377 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,377 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,377 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,377 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,377 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,377 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,377 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,377 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,377 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,377 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,377 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,377 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,378 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,378 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,378 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,378 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,378 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,378 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,378 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,378 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,378 - INFO - Product PROD003: Total reward = 0.00, Final inventory = 0.00\n2026-01-18 12:27:36,379 - INFO - Training episode completed. Average batch reward: 0.00, Total episode reward: 0.00\n2026-01-18 12:27:36,379 - INFO - Starting evaluation phase...\n2026-01-18 12:27:36,379 - INFO - Starting evaluation...\n2026-01-18 12:27:36,379 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,379 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,379 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,380 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,380 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,380 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,380 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,380 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,380 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,380 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,380 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,380 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,380 - INFO - Product PROD001 evaluation: Reward=0.00, Service Level=0.044, Avg Inventory=0.00\n2026-01-18 12:27:36,380 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,380 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,380 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,380 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,380 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,381 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,381 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,381 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,381 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,381 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,381 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,381 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,381 - INFO - Product PROD002 evaluation: Reward=0.00, Service Level=0.053, Avg Inventory=0.00\n2026-01-18 12:27:36,381 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,381 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,381 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,381 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,381 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,381 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,382 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,382 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,382 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,382 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,382 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,382 - ERROR - Error in forward pass: Matrix dimensions don't match for multiplication\n2026-01-18 12:27:36,382 - INFO - Product PROD003 evaluation: Reward=1862.34, Service Level=0.068, Avg Inventory=2.90\n2026-01-18 12:27:36,382 - INFO - Overall evaluation: Total Reward=1862.34, Service Level=0.056, Avg Inventory=0.97\n2026-01-18 12:27:36,382 - INFO - === EXPERIMENT RESULTS ===\n2026-01-18 12:27:36,382 - INFO - Training episodes completed: 5\n2026-01-18 12:27:36,382 - INFO - Average training reward: 571.62\n2026-01-18 12:27:36,382 - INFO - Final evaluation reward: 1862.34\n2026-01-18 12:27:36,382 - INFO - Overall service level: 0.056\n2026-01-18 12:27:36,382 - INFO - Average inventory level: 0.97\n2026-01-18 12:27:36,382 - INFO - PROD001: Reward=0.00, Service Level=0.044\n2026-01-18 12:27:36,382 - INFO - PROD002: Reward=0.00, Service Level=0.053\n2026-01-18 12:27:36,382 - INFO - PROD003: Reward=1862.34, Service Level=0.068\n2026-01-18 12:27:36,382 - INFO - Experiment completed successfully\n",
 
 "execution_time": null
 
@@ -61,14 +1425,14 @@ ModuleNotFoundError: No module named 'numpy'
 
 }
 
-INIT_REPORT Init Duration: 81.75 ms	Phase: invoke	Status: error	Error Type: Runtime.ExitError
+INIT_REPORT Init Duration: 135.51 ms	Phase: invoke	Status: error	Error Type: Runtime.ExitError
 
-START RequestId: 24982130-922a-4e20-a555-8ac16494d7ce Version: $LATEST
+START RequestId: cc32a3ec-d4c8-45a8-8676-a3d16e38ad08 Version: $LATEST
 
-RequestId: 24982130-922a-4e20-a555-8ac16494d7ce Error: Runtime exited without providing a reason
+RequestId: cc32a3ec-d4c8-45a8-8676-a3d16e38ad08 Error: Runtime exited without providing a reason
 Runtime.ExitError
 
-END RequestId: 24982130-922a-4e20-a555-8ac16494d7ce
+END RequestId: cc32a3ec-d4c8-45a8-8676-a3d16e38ad08
 
-REPORT RequestId: 24982130-922a-4e20-a555-8ac16494d7ce	Duration: 83.48 ms	Billed Duration: 84 ms	Memory Size: 3008 MB	Max Memory Used: 15 MB	
+REPORT RequestId: cc32a3ec-d4c8-45a8-8676-a3d16e38ad08	Duration: 137.53 ms	Billed Duration: 138 ms	Memory Size: 3008 MB	Max Memory Used: 17 MB	
 
